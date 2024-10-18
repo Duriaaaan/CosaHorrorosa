@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_horizontal"
+    android:background="#FFFFFF">
+
+    <!-- Contenedor para el logo y el nombre de la aplicación -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <!-- Logo de la aplicación -->
+        <ImageView
+            android:id="@+id/app_logo"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/manga_9824268"
+            android:layout_marginBottom="10dp" />
+
+        <!-- Nombre de la aplicación -->
+        <TextView
+            android:id="@+id/app_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Shonen Shelf"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:textColor="#FFA500"
+            android:layout_marginBottom="20dp" />
+    </LinearLayout>
+
+    <!-- Texto Iniciar Sesión -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Iniciar Sesión"
+        android:textSize="24sp"
+        android:textColor="#FFA500"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Campo de entrada para el nombre de usuario -->
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Usuario"
+        android:backgroundTint="#000000"
+        android:padding="10dp"
+        android:layout_marginBottom="10dp" />
+
+    <!-- Campo de entrada para la contraseña -->
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Contraseña"
+        android:inputType="textPassword"
+        android:backgroundTint="#000000"
+        android:padding="10dp"
+        android:layout_marginBottom="20dp" />
+
+    <!-- Botón de iniciar sesión -->
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Iniciar Sesión"
+        android:background="#6A0DAD"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="10dp" />
+
+    <!-- Botón de registrar nuevo usuario -->
+    <Button
+        android:id="@+id/register_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registrar nuevo usuario"
+        android:background="#6A0DAD"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>
