@@ -14,7 +14,7 @@ public class PurchaseHistoryActivity extends AppCompatActivity {
     ArrayAdapter<String> purchaseHistoryAdapter;
 
     @Override
-    protected void onCreate(Bundle savedInstanceState)  {
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_purchase_history);
 
@@ -29,3 +29,4 @@ public class PurchaseHistoryActivity extends AppCompatActivity {
         purchaseHistoryList.setAdapter(purchaseHistoryAdapter);
     }
 }
+
